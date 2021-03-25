@@ -33,7 +33,7 @@
 							<ul class="sub-catalog group_1">
 								<xsl:if test="yodaodict/thirdpart-result/fanyi-result">
 									<li class="sub1_all">
-										<a href="#fanyiResult" hidefocus="true" onclick="ctlog('', '' , 0, 'deskdict.main.navigator' , 1, 'CLICK',  '翻译结果'); ">翻译结果</a>
+										<a href="#fanyiResult" hidefocus="true" onclick="ctlog('', '' , 0, 'deskdict.main.navigator' , 1, 'CLICK',  '翻译结果'); ">结果</a>
 									</li>
 								</xsl:if>
 								<xsl:if test="yodaodict/thirdpart-result/websearch-result">
